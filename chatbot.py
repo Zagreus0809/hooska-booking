@@ -39,7 +39,7 @@ def main():
     print("========================================")
     print("       Welcome to the Chatbot!          ")
     print("========================================")
-    print("\nChatbot: Hello! I'm your virtual assistant. Type 'bye' to exit.")
+    print("\nChatbot: Hello! I'm your virtual assistant.")
     
     while True:
         user_input = input("\nYou: ").strip()
