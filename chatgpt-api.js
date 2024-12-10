@@ -118,7 +118,7 @@ async function chatGPT_API_Completions() {
                 messages.push(userMessage);
             }
 
-            const response = await fetch('https://api.openai.com/v1/chat/completions', {
+            const response = await fetch('https://api.lyroai.com/v1/chat/completions', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -181,7 +181,7 @@ function createResponse(json) {
 async function typeSentence(sentence, elementReference, data, isReceipt = false, delay = 30) {
     elementReference.innerText = "";
     if (sentence === "HTTP ERROR: 401") {
-        sentence += " — Please make sure that your Open AI API Key has been set properly.";
+        sentence += " — Please make sure that your Lyro AI API Key has been set properly.";
     }
     const letters = sentence.split("");
     let i = 0;
