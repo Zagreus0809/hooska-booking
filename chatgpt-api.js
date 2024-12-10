@@ -1,5 +1,5 @@
 
-const API_KEY = localStorage.getItem("openAI");
+const API_KEY = localStorage.getItem("lyroAI");
 
 const MIN_CHARS = 0;
 let userSpan, charSpan;
