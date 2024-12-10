@@ -37,7 +37,7 @@ function countCharactersSystem() {
     for (let i = 0; i < spans.length; i++) {
         let darkCSS = document.getElementById("darkCSS");
         if (darkCSS == null) {
-            spans[i].style.color = "black";
+            spans[i].style.color = "blue";
         } else {
             spans[i].style.color = "white";
         }
@@ -52,7 +52,7 @@ function countCharactersAssistant() {
     for (let i = 0; i < spans.length; i++) {
         let darkCSS = document.getElementById("darkCSS");
         if (darkCSS == null) {
-            spans[i].style.color = "black";
+            spans[i].style.color = "blue";
         } else {
             spans[i].style.color = "white";
         }
@@ -67,7 +67,7 @@ function countCharactersUser() {
     for (let i = 0; i < spans.length; i++) {
         let darkCSS = document.getElementById("darkCSS");
         if (darkCSS == null) {
-            spans[i].style.color = "black";
+            spans[i].style.color = "blue";
         } else {
             spans[i].style.color = "white";
         }
