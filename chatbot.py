@@ -36,7 +36,6 @@ def hooska_chatbot1(user_input):
         return "I'm sorry, I don't understand that. 😕"
 
 def hooska_chatbot2(user_input):
-    # Training-style prompt for travel and tours
     system_message = """
     You are a helpful chatbot for Hooska Travels and Tours, specializing in:
     - Guiding users through the booking process.
